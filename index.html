@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluador de Rendimiento Académico</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+        <div class="container">
+        <h1>Objetivo</h1>
+        <p>
+            Crear un programa en JavaScript que calcule la nota final de un estudiante sobre 20 puntos y determine si:
+        </p>
+        <ul>
+            <li>Aprueba directamente.</li>
+            <li>Debe ir a recuperación.</li>
+            <li>Pierde la materia.</li>
+        </ul>
+
+        <h2>Reglas</h2>
+        <ul>
+            <li>Las tres notas se declaran directamente en el código:<br>
+                <code>parcial1 = 12;<br>parcial2 = 15;<br>proyectoFinal = 18;</code>
+            </li>
+            <li>Pesos:<br>
+                Parcial 1: 30%<br>
+                Parcial 2: 30%<br>
+                Proyecto Final: 40%
+            </li>
+            <li>Fórmula:<br>
+                <code>notaFinal = (parcial1 * 0.3) + (parcial2 * 0.3) + (proyectoFinal * 0.4);</code>
+            </li>
+        </ul>
+
+        <h2>Evaluación</h2>
+        <ul>
+            <li>Nota final &ge; 14: Aprobado directamente.</li>
+            <li>Nota final entre 10 y 13.9: Va a recuperación.</li>
+            <li>Nota final &lt; 10: Pierde la materia.</li>
+        </ul>
+
+        <p><em>Entrega:</em> Cumplir el formato establecido que se encuentra en la información del curso.</p>
+    </div>
+
+    <script src="public/js/promedio.js"></script>
+</body>
+</html>
