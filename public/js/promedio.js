@@ -10,7 +10,7 @@ let notaFinal = (parcial1 * 0.3) + (parcial2 * 0.3) + (proyectoFinal * 0.4);
 console.log("Nota del primer parcial= "+parcial1);
 console.log("Nota del segundo parcial= "+parcial2);
 console.log("Nota del proyecto final= "+proyectoFinal);
-console.log("Nota final= "+notaFinal);
+console.log("Nota final= "+notaFinal.toFixed(2));
 if(notaFinal>=14){
     console.log("Aprobado directamente.");
 }else{
