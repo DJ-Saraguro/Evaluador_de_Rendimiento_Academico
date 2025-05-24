@@ -14,7 +14,7 @@ console.log("Nota final= "+notaFinal);
 if(notaFinal>=14){
     console.log("Aprobado directamente.");
 }else{
-    if(notaFinal>=10 && notaFinal<14){
+    if(notaFinal>=10){
         console.log("Va a recuperación.");
     }else{
         console.log("Pierde la materia.");
